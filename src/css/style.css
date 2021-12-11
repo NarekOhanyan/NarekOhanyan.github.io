@@ -1,4 +1,4 @@
-﻿body{margin:0}
+body{margin:0}
 h1{font-size:36px;margin:12px}
 h2{font-size:30px;margin:10px}
 h3{font-size:24px;margin:8px}
@@ -58,6 +58,45 @@ ul {
 
 .width-60 {
     width: 60%;
+}
+
+.main-menu-container {
+	clear: both;
+	overflow: auto;
+	position: sticky;
+	position: -webkit-sticky; /* Safari */  
+	top: 0px;
+	z-index: 3;
+}
+
+.main-menu {
+	width: 60%;
+	margin: 20px 5% 0px 25%;
+	float: right;
+	overflow: auto;
+	background-color: rgb(230,230,230);
+	border-radius: 8px;
+	transition: all 0.1s ease;
+}
+
+.main-menu-item {
+	width: 20%;
+	padding: 7px 1% 7px 1%;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	color: rgb(255,255,255);
+	background-color: rgb(230,230,230);
+	border-radius: 8px;
+}
+
+.main-menu-item:hover {
+	background-color: rgb(200,200,200);
+}
+
+.menu-item-text {
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: ;
 }
 
 .container-header {
