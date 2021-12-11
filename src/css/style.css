@@ -1,4 +1,4 @@
-body{margin:0}
+﻿body{margin:0}
 h1{font-size:36px;margin:12px}
 h2{font-size:30px;margin:10px}
 h3{font-size:24px;margin:8px}
@@ -30,10 +30,10 @@ a {
     text-decoration: none;
 }
 a:link, a:visited {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 90, 180, 0.8);
 }
 a:hover {
-    color: rgba(0, 70, 200, 0.8);
+    color: rgba(0, 50, 150, 0.9);
 }
 
 ul {
@@ -64,7 +64,7 @@ ul {
 	clear: both;
 	overflow: auto;
 	position: sticky;
-	position: -webkit-sticky; /* Safari */  
+	position: -webkit-sticky; /* Safari */
 	top: 0px;
 	z-index: 3;
 }
@@ -96,21 +96,21 @@ ul {
 
 .menu-item-text {
 	color: rgba(0, 0, 0, 0.8);
-	font-weight: ;
+	font-weight: 400;
 }
 
 .container-header {
     width: 100%;
     padding: 5px 5% 5px 0%;
     display: block;
-    border-width: 0;
+    /*border-width: 0;*/
 }
 
 .container-main {
     width: 100%;
     display: block;
     overflow: auto;
-    border-width: 0;
+    /*border-width: 0;*/
 }
 
 .container-photo {
@@ -120,19 +120,19 @@ ul {
     float: left;
     margin: 10px 0% 10px 5%;
     padding: 0px;
-    border-width: 0;
+    /*border-width: 0;*/
 }
 
 .photo {
     width: 100%;
     height: auto;
     border-radius: 50%;
-    border-width: 0;
+    /*border-width: 0;*/
 }
 
 .wrapper-photo {
     padding: 20px 20% 20px 20%;
-    border-width: 0;
+    /*border-width: 0;*/
 }
 
 .wrapper-links {
@@ -141,7 +141,7 @@ ul {
     overflow: auto;
     float: left;
     padding: 0px 20% 0px 20%;
-    border-width: 0;
+    /*border-width: 0;*/
 }
 
 .container-description {
@@ -152,7 +152,7 @@ ul {
     float: left;
     margin: 10px 5% 10px 0%;
     padding: 20px;
-    border-width: 0;
+    /*border-width: 0;*/
 }
 
 .wrapper-description {
@@ -161,7 +161,7 @@ ul {
     overflow: auto;
     float: left;
     padding: 0px 5% 0px 0%;
-    border-width: 0;
+    /*border-width: 0;*/
 }
 
 .bottom {
