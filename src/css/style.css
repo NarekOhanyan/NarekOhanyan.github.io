@@ -206,6 +206,15 @@ ul {
     /*border-width: 0;*/
 }
 
+.wrapper-cv {
+    width: 100%;
+    display: block;
+    overflow: auto;
+    float: left;
+    padding: 0px 5% 15px 0%;
+    /*border-width: 0;*/
+}
+
 .wrapper-teaching h6 p {
     margin: 5px;
 }
