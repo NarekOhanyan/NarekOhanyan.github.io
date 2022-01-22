@@ -100,7 +100,7 @@ ul {
 }
 
 .container {
-    width: 60%;
+    width: 80%;
     min-height: 500px;
     display: block;
     overflow: auto;
@@ -189,6 +189,15 @@ ul {
 }
 
 .wrapper-teaching {
+    width: 100%;
+    display: block;
+    overflow: auto;
+    float: left;
+    padding: 0px 5% 15px 0%;
+    /*border-width: 0;*/
+}
+
+.wrapper-research {
     width: 100%;
     display: block;
     overflow: auto;
