@@ -7,8 +7,8 @@ h5{font-size:16px;margin:4px}
 h6{font-size:15px;margin:3px}
 h7,span{font-size:12px;margin:1px}
 h1,h2,h3,h4,h5,h6,h7,span{
-	font-family:"noto sans", "Segoe UI", Arial, sans-serif;
-	font-weight:400;
+	font-family: "noto sans", "Segoe UI", Arial, sans-serif;
+	font-weight: 400;
 	color: rgba(0, 0, 0, 0.8);
 }
 
@@ -20,7 +20,7 @@ body {
     background-color: rgb(250,255,255);
 }
 
-div,img,a{
+div, img, a{
     border-style: solid;
     border-width: 0px;
     box-sizing: border-box;
@@ -99,6 +99,17 @@ ul {
 	font-weight: 400;
 }
 
+.container {
+    width: 60%;
+    min-height: 500px;
+    display: block;
+    overflow: auto;
+    float: left;
+    margin: 10px 5% 10px 5%;
+    padding: 20px;
+    /*border-width: 0;*/
+}
+
 .container-header {
     width: 100%;
     padding: 5px 5% 5px 0%;
@@ -155,6 +166,19 @@ ul {
     /*border-width: 0;*/
 }
 
+.header {
+    width: 100%;
+    padding: 0px 5% 0px 0%;
+    display: block;
+    /*border-width: 0;*/
+}
+
+.header h5 {
+    font-weight: 600;
+    padding: 5px 0% 0px 0%;
+    color: rgba(0, 90, 180, 0.8);
+}
+
 .wrapper-description {
     width: 100%;
     display: block;
@@ -162,6 +186,23 @@ ul {
     float: left;
     padding: 0px 5% 0px 0%;
     /*border-width: 0;*/
+}
+
+.wrapper-teaching {
+    width: 100%;
+    display: block;
+    overflow: auto;
+    float: left;
+    padding: 0px 5% 15px 0%;
+    /*border-width: 0;*/
+}
+
+.wrapper-teaching h6 p {
+    margin: 5px;
+}
+
+.course-name{
+    font-weight: 600;
 }
 
 .bottom {
