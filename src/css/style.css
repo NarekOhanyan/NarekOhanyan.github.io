@@ -210,6 +210,9 @@ ul {
     margin: 5px;
 }
 
+.wrapper-code h6 p a {
+    color: rgba(0, 0, 0, 0.8);
+}
 .course-name{
     font-weight: 600;
 }
