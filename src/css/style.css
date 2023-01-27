@@ -63,8 +63,8 @@ ul {
 .main-menu-container {
 	clear: both;
 	overflow: auto;
-	position: sticky;
-	position: -webkit-sticky; /* Safari */
+	/* position: sticky; */
+	/* position: -webkit-sticky; /* Safari */
 	top: 0px;
 	z-index: 3;
 }
