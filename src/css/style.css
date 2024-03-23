@@ -137,7 +137,7 @@ ul {
 .photo {
     width: 100%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 5%;
     /*border-width: 0;*/
 }
 
