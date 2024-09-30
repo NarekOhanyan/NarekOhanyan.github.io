@@ -80,7 +80,7 @@ ul {
 }
 
 .main-menu-item {
-	width: 20%;
+	width: 16.666%;
 	padding: 7px 1% 7px 1%;
 	float: left;
 	text-align: center;
@@ -198,6 +198,15 @@ ul {
 }
 
 .wrapper-research {
+    width: 100%;
+    display: block;
+    overflow: auto;
+    float: left;
+    padding: 0px 5% 15px 0%;
+    /*border-width: 0;*/
+}
+
+.wrapper-resources {
     width: 100%;
     display: block;
     overflow: auto;
